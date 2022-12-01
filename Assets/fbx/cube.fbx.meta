@@ -3,7 +3,12 @@ guid: 14001f9dcd866074d906c16db39ff89c
 ModelImporter:
   serializedVersion: 22103
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__RED_petals
+    second: {fileID: 2100000, guid: 618e83a80ad19214693b7759bb51502d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
