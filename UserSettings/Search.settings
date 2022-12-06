@@ -7,7 +7,7 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.8C24D059" = "wizard"
+	"last_search.8C24D059" = "inspe"
 	"OpenInspectorPreview.8C24D059" = "0"
 	"currentGroup.8C24D059" = "all"
 }
