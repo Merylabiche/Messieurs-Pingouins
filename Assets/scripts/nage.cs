@@ -5,8 +5,8 @@ using UnityEngine.InputSystem;
 public class nage : MonoBehaviour
 {
     [Header("Values")]
-    [SerializeField] float swimForce = 2f;
-    [SerializeField] float dragForce = 1f;
+    [SerializeField] float swimForce = 5f;
+    [SerializeField] float dragForce = 5f;
     [SerializeField] float minForce;
     [SerializeField] float minTimeBetweenStrokes;
     [Header("References")]

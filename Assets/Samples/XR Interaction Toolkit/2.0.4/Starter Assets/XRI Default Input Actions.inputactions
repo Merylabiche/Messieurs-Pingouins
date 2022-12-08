@@ -88,6 +88,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Velocity",
+                    "type": "Value",
+                    "id": "6bacebc0-2d1d-414c-ab83-8a025027b712",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -198,6 +207,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Tracking State",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ccd3684a-c85f-4665-8e07-3144580158c2",
+                    "path": "<OculusTouchController>{LeftHand}/devicePose/velocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Velocity",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -473,15 +493,6 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Velocity",
-                    "type": "Value",
-                    "id": "bdc5cb27-bfcf-4891-9ff4-da539eef456d",
-                    "expectedControlType": "Vector3",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
                     "name": "Teleport Mode Activate",
                     "type": "Value",
                     "id": "a21db72c-4843-4839-b4d0-3ce8d287cb86",
@@ -573,17 +584,6 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "f3c26b0e-7982-44e2-8830-3627db1fed3d",
-                    "path": "<OculusTouchController>{LeftHand}/devicePose/velocity",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Velocity",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         },
@@ -595,6 +595,15 @@
                     "name": "Position",
                     "type": "Value",
                     "id": "c4990d70-7b8a-4ce1-b03c-da86716b8352",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Velocity",
+                    "type": "Value",
+                    "id": "17f2b0dc-3e12-480e-a580-f457396cf5db",
                     "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
@@ -736,6 +745,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Tracking State",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7321dda9-95c8-44b0-a326-f07b59f25da7",
+                    "path": "<OculusTouchController>{RightHand}/devicePose/velocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Velocity",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -1045,15 +1065,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
-                },
-                {
-                    "name": "Velocity",
-                    "type": "Value",
-                    "id": "10f65267-d427-4311-bc64-d57d11405a04",
-                    "expectedControlType": "Vector3",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -1098,17 +1109,6 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Turn",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "d1b8382c-2e22-4590-9546-14ca03833c5f",
-                    "path": "<OculusTouchController>{RightHand}/devicePose/velocity",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Velocity",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
